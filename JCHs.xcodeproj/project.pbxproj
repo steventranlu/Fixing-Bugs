@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2F3653C244A7CAA00271561 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F3653B244A7CAA00271561 /* Rewards.swift */; };
 		D2FFD3C1244A655600491D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C0244A655600491D7A /* AppDelegate.swift */; };
 		D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C2244A655600491D7A /* SceneDelegate.swift */; };
 		D2FFD3C5244A655600491D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C4244A655600491D7A /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D2F3653B244A7CAA00271561 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
 		D2FFD3BD244A655600491D7A /* JCHs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCHs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FFD3C0244A655600491D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FFD3C2244A655600491D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				D2FFD3C2244A655600491D7A /* SceneDelegate.swift */,
 				D2FFD3C4244A655600491D7A /* ViewController.swift */,
 				D2FFD3C6244A655600491D7A /* Main.storyboard */,
-				D2F3653B244A7CAA00271561 /* Rewards.swift */,
 				D2FFD3C9244A655800491D7A /* Assets.xcassets */,
 				D2FFD3CB244A655800491D7A /* LaunchScreen.storyboard */,
 				D2FFD3CE244A655800491D7A /* Info.plist */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F3653C244A7CAA00271561 /* Rewards.swift in Sources */,
 				D2FFD3C5244A655600491D7A /* ViewController.swift in Sources */,
 				D2FFD3C1244A655600491D7A /* AppDelegate.swift in Sources */,
 				D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */,
