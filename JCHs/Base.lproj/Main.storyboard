@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Page1 View Controller-->
+        <!--Front Page View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Page1ViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FrontPageViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -446,10 +446,10 @@
             </objects>
             <point key="canvasLocation" x="2811.594202898551" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--AI ChatBot View Controller-->
         <scene sceneID="64x-nM-3Mn">
             <objects>
-                <viewController id="A2d-52-zd2" sceneMemberID="viewController">
+                <viewController title="AI ChatBot View Controller" id="A2d-52-zd2" customClass="FrontPageViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u2C-di-sxH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -759,10 +759,10 @@
             </objects>
             <point key="canvasLocation" x="4537.68115942029" y="112.5"/>
         </scene>
-        <!--Page1 View Controller-->
+        <!--Front Page View Controller-->
         <scene sceneID="SuH-MU-GXa">
             <objects>
-                <viewController id="lF5-kJ-h1b" customClass="Page1ViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lF5-kJ-h1b" customClass="FrontPageViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kQh-4x-0Ou">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

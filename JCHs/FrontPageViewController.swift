@@ -1,7 +1,7 @@
 import UIKit
 import AVFoundation
 
-class Page1ViewController: UIViewController {
+class FrontPageViewController: UIViewController {
 
 
     @IBOutlet weak var switchPlaySound: UISwitch!
@@ -16,10 +16,7 @@ class Page1ViewController: UIViewController {
             }
         }
     }
-    
     let arraySounds = ["Sound0"]
-    
-    
     func playSound(soundName:String){
         if let sound = NSDataAsset(name: soundName){
             do {
@@ -32,21 +29,20 @@ class Page1ViewController: UIViewController {
                 print("Error: Could not read data from song files")
             }
         }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         playSound(soundName: arraySounds[0])
 
     }
-    
-    
     @IBAction func buttonPlayOrMute(_ sender: UIButton) {
         if switchPlaySound.isOn {
             playSound(soundName: arraySounds[0])
         }
     }
-    
-
-
 }
+
+
+
+
+
 
