@@ -10,7 +10,15 @@ import UIKit
 
 class AIChatBotViewController: UIViewController {
 
+    @IBOutlet weak var imageAIBot: UIImageView!
+    @IBOutlet weak var labelAIBot: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    @IBAction func buttonSolve(_ sender: UIButton) {
+        labelAIBot.text = "Ops! Unfortunately, our AI Chat Bot is currently unavailable."
+        imageAIBot.image = UIImage(named: "13")
     }
 }
