@@ -1,19 +1,31 @@
-//
-//  ViewController.swift
-//  JCHs
-//
-//  Created by Steven Lu on 4/17/20.
-//  Copyright © 2020 Steven Lu. All rights reserved.
-//
-
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var prototypeCells: UITableView!
+
+    @IBOutlet weak var switchPlaySound: UISwitch!
+    
+    var audioPlayer: AVAudioPlayer!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
