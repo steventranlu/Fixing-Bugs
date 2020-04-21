@@ -449,7 +449,7 @@
         <!--AI ChatBot View Controller-->
         <scene sceneID="64x-nM-3Mn">
             <objects>
-                <viewController title="AI ChatBot View Controller" id="A2d-52-zd2" customClass="FrontPageViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AI ChatBot View Controller" id="A2d-52-zd2" customClass="AIChatBotViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u2C-di-sxH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
