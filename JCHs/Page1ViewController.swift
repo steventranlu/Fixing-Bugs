@@ -1,7 +1,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class Page1ViewController: UIViewController {
 
 
     @IBOutlet weak var switchPlaySound: UISwitch!
