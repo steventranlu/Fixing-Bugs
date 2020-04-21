@@ -33,19 +33,19 @@ class Page1ViewController: UIViewController {
             }
         }
 
-    
-    
-    
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         playSound(soundName: arraySounds[0])
 
     }
+    
+    
+    @IBAction func buttonPlayOrMute(_ sender: UIButton) {
+        if switchPlaySound.isOn {
+            playSound(soundName: arraySounds[0])
+        }
+    }
+    
 
 
 }
