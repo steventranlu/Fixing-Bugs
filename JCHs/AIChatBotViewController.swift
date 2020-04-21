@@ -16,9 +16,22 @@ class AIChatBotViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageAIBot.image = UIImage(named: "")
+        labelAIBot.text = ""
     }
+    
+    
     @IBAction func buttonSolve(_ sender: UIButton) {
-        labelAIBot.text = "Ops! Unfortunately, our AI Chat Bot is currently unavailable."
-        imageAIBot.image = UIImage(named: "13")
+        if labelAIBot.text == "" {
+            imageAIBot.image = UIImage(named: "13")
+            labelAIBot.text = "Ops. Unfotunately, our AI Chat Bot is currently unavailable."
+        } else if labelAIBot.text == "Ops. Unfotunately, our AI Chat Bot is currently unavailable."{
+            imageAIBot.image = UIImage(named: "13")
+            labelAIBot.text = "Available with update 1.2.14."
+        } else if labelAIBot.text == "Available with update 1.2.14." {
+            imageAIBot.image = UIImage(named: "13")
+            labelAIBot.text = "Ops. Unfotunately, our AI Chat Bot is currently unavailable."
+        }
+    
     }
 }
