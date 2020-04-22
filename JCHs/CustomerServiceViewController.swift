@@ -54,6 +54,14 @@ class CustomerServiceViewController: UIViewController {
     }
     
     
+    @IBAction func buttonTryAgain(_ sender: UIButton) {
+        imageUnavailable.image = UIImage(named: "")
+        labelUnavailable.text = ""
+        imageTop.image = UIImage(named: "2")
+        imageMiddle.image = UIImage(named: "3")
+        imageBottom.image = UIImage(named: "4")
+        
+    }
     
     
     
