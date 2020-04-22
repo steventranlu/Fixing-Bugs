@@ -513,10 +513,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOR-EX-w4B">
-                                <rect key="frame" x="170" y="835" width="74" height="27"/>
+                                <rect key="frame" x="20" y="835" width="374" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Rate Us"/>
+                                <state key="normal" title="Provide Feedback"/>
                                 <connections>
                                     <segue destination="KOo-gl-Lob" kind="show" id="hEe-Cg-nDu"/>
                                 </connections>
@@ -723,14 +723,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbU-uy-Ig5">
-                                <rect key="frame" x="176" y="835" width="66" height="27"/>
+                                <rect key="frame" x="20" y="835" width="376" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Rate Us"/>
+                                <state key="normal" title="Provide Feedback"/>
                                 <connections>
                                     <segue destination="KOo-gl-Lob" kind="show" id="kHW-BS-CfX"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="YaZ-Jt-xHT">
+                                <rect key="frame" x="22" y="390" width="374" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Tq9-Dm-iea"/>
@@ -778,10 +782,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ke7-99-15N">
-                                <rect key="frame" x="170" y="835" width="74" height="27"/>
+                                <rect key="frame" x="20" y="835" width="374" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Rate Us"/>
+                                <state key="normal" title="Provide Feedback"/>
                                 <connections>
                                     <segue destination="KOo-gl-Lob" kind="show" id="fQT-Kx-XY8"/>
                                 </connections>
@@ -911,10 +915,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vou-SC-Zw4">
-                                <rect key="frame" x="175" y="826" width="64" height="27"/>
+                                <rect key="frame" x="20" y="826" width="374" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Rate Us"/>
+                                <state key="normal" title="Provide Feedback"/>
                                 <connections>
                                     <segue destination="KOo-gl-Lob" kind="show" id="Nl8-z4-ZUV"/>
                                 </connections>
@@ -1036,6 +1040,7 @@
         <image name="10" width="750" height="1334"/>
         <image name="11" width="1080" height="1920"/>
         <image name="13" width="300" height="168"/>
+        <image name="15" width="180" height="280"/>
         <image name="2" width="318" height="159"/>
         <image name="3" width="275" height="183"/>
         <image name="4" width="311" height="162"/>
@@ -1044,7 +1049,7 @@
         <image name="9" width="286" height="138"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hEe-Cg-nDu"/>
+        <segue reference="kHW-BS-CfX"/>
         <segue reference="liz-By-VAR"/>
         <segue reference="8h5-TN-vnU"/>
         <segue reference="oX2-g7-8Dv"/>
