@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D27D6AE4244FB2FC00DDE413 /* AIChatBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */; };
+		D27D6AE6244FC2E400DDE413 /* CustomerServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */; };
 		D2FFD3C1244A655600491D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C0244A655600491D7A /* AppDelegate.swift */; };
 		D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C2244A655600491D7A /* SceneDelegate.swift */; };
 		D2FFD3C5244A655600491D7A /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C4244A655600491D7A /* FrontPageViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatBotViewController.swift; sourceTree = "<group>"; };
+		D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerServiceViewController.swift; sourceTree = "<group>"; };
 		D2FFD3BD244A655600491D7A /* JCHs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCHs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FFD3C0244A655600491D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FFD3C2244A655600491D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +63,9 @@
 				D2FFD3C0244A655600491D7A /* AppDelegate.swift */,
 				D2FFD3C2244A655600491D7A /* SceneDelegate.swift */,
 				D2FFD3C4244A655600491D7A /* FrontPageViewController.swift */,
-				D2FFD3C6244A655600491D7A /* Main.storyboard */,
 				D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */,
+				D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */,
+				D2FFD3C6244A655600491D7A /* Main.storyboard */,
 				D2FFD3C9244A655800491D7A /* Assets.xcassets */,
 				D2FFD3CB244A655800491D7A /* LaunchScreen.storyboard */,
 				D2FFD3CE244A655800491D7A /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2FFD3C5244A655600491D7A /* FrontPageViewController.swift in Sources */,
+				D27D6AE6244FC2E400DDE413 /* CustomerServiceViewController.swift in Sources */,
 				D2FFD3C1244A655600491D7A /* AppDelegate.swift in Sources */,
 				D27D6AE4244FB2FC00DDE413 /* AIChatBotViewController.swift in Sources */,
 				D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */,

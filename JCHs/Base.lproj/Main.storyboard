@@ -669,10 +669,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Customer Service View Controller-->
         <scene sceneID="sWK-KI-rKM">
             <objects>
-                <viewController id="jKZ-H1-hoZ" sceneMemberID="viewController">
+                <viewController id="jKZ-H1-hoZ" customClass="CustomerServiceViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aBM-Nk-3YY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -732,7 +732,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="YaZ-Jt-xHT">
-                                <rect key="frame" x="22" y="390" width="374" height="279"/>
+                                <rect key="frame" x="20" y="390" width="374" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -740,6 +740,15 @@
                         <viewLayoutGuide key="safeArea" id="Tq9-Dm-iea"/>
                     </view>
                     <navigationItem key="navigationItem" id="t3U-0S-ZbU"/>
+                    <connections>
+                        <outlet property="buttonCallUs" destination="V6b-9Z-EsH" id="LjB-J3-c0g"/>
+                        <outlet property="buttonMessageUs" destination="dAZ-p2-fiu" id="faN-oM-s07"/>
+                        <outlet property="buttonSendUsPhotos" destination="0Sg-a0-Bd9" id="C5c-FZ-X2O"/>
+                        <outlet property="imageBottom" destination="78K-yq-GeU" id="qze-Jt-aEZ"/>
+                        <outlet property="imageMiddle" destination="q2G-Gd-0SQ" id="6M9-fg-XiL"/>
+                        <outlet property="imageTop" destination="yeD-X2-7a8" id="TWA-dD-gAZ"/>
+                        <outlet property="imageUnavailable" destination="YaZ-Jt-xHT" id="k4A-vs-w1c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mc2-8y-SyA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -907,15 +916,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Data and information provided in survey may be used and sold to external third party memebers." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leT-PH-lap">
-                                <rect key="frame" x="20" y="851" width="374" height="12"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="8"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vou-SC-Zw4">
-                                <rect key="frame" x="20" y="826" width="374" height="27"/>
+                                <rect key="frame" x="20" y="835" width="374" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Provide Feedback"/>
@@ -923,6 +925,13 @@
                                     <segue destination="KOo-gl-Lob" kind="show" id="Nl8-z4-ZUV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Data and information provided in survey may be used and sold to external third party memebers." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leT-PH-lap">
+                                <rect key="frame" x="20" y="827" width="374" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="jtJ-pv-QSc"/>
