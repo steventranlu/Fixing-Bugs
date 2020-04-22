@@ -686,22 +686,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6b-9Z-EsH">
-                                <rect key="frame" x="174" y="243" width="66" height="35"/>
+                                <rect key="frame" x="174" y="247" width="66" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                 <state key="normal" title="Call us"/>
+                                <connections>
+                                    <action selector="buttonCallUsNull:" destination="jKZ-H1-hoZ" eventType="touchUpInside" id="Bvd-9O-DfV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAZ-p2-fiu">
                                 <rect key="frame" x="150" y="422" width="114" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                 <state key="normal" title="Message us"/>
+                                <connections>
+                                    <action selector="buttonMessageUsNull:" destination="jKZ-H1-hoZ" eventType="touchUpInside" id="xDV-Iw-hAC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Sg-a0-Bd9">
                                 <rect key="frame" x="20" y="601" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                 <state key="normal" title="Send us Photos"/>
+                                <connections>
+                                    <action selector="buttonSendUsPhotos:" destination="jKZ-H1-hoZ" eventType="touchUpInside" id="c97-mp-pQ4"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="q2G-Gd-0SQ">
                                 <rect key="frame" x="87" y="465" width="240" height="128"/>
@@ -731,8 +740,15 @@
                                     <segue destination="KOo-gl-Lob" kind="show" id="kHW-BS-CfX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93z-Uj-Gis">
+                                <rect key="frame" x="22" y="685" width="374" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="YaZ-Jt-xHT">
-                                <rect key="frame" x="20" y="390" width="374" height="279"/>
+                                <rect key="frame" x="20" y="256" width="372" height="440"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -748,6 +764,7 @@
                         <outlet property="imageMiddle" destination="q2G-Gd-0SQ" id="6M9-fg-XiL"/>
                         <outlet property="imageTop" destination="yeD-X2-7a8" id="TWA-dD-gAZ"/>
                         <outlet property="imageUnavailable" destination="YaZ-Jt-xHT" id="k4A-vs-w1c"/>
+                        <outlet property="labelUnavailable" destination="93z-Uj-Gis" id="WtE-Vu-lUw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mc2-8y-SyA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

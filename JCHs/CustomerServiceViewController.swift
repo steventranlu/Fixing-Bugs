@@ -20,14 +20,38 @@ class CustomerServiceViewController: UIViewController {
     @IBOutlet weak var imageMiddle: UIImageView!
     @IBOutlet weak var imageBottom: UIImageView!
     
+    @IBOutlet weak var labelUnavailable: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imageUnavailable.image = UIImage(named: "")
+        labelUnavailable.text = ""
         
     }
 
+    @IBAction func buttonCallUsNull(_ sender: UIButton) {
+        imageUnavailable.image = UIImage(named: "15")
+        labelUnavailable.text = "Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
+        imageTop.image = UIImage(named: "")
+        imageMiddle.image = UIImage(named: "")
+        imageBottom.image = UIImage(named: "")
+    }
     
+    @IBAction func buttonMessageUsNull(_ sender: UIButton) {
+        imageUnavailable.image = UIImage(named: "15")
+        labelUnavailable.text = "Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
+        imageTop.image = UIImage(named: "")
+        imageMiddle.image = UIImage(named: "")
+        imageBottom.image = UIImage(named: "")
+    }
+    
+    @IBAction func buttonSendUsPhotos(_ sender: UIButton) {
+        imageUnavailable.image = UIImage(named: "15")
+        labelUnavailable.text = "Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
+        imageTop.image = UIImage(named: "")
+        imageMiddle.image = UIImage(named: "")
+        imageBottom.image = UIImage(named: "")
+    }
     
     
     
