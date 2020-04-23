@@ -389,7 +389,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.96975022550000001" green="0.80587446689999997" blue="0.33319625260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                    <state key="normal" title="Take Notes.">
+                                                    <state key="normal" title="To Do List.">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
@@ -1086,7 +1086,7 @@
         <image name="9" width="286" height="138"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kHW-BS-CfX"/>
+        <segue reference="fQT-Kx-XY8"/>
         <segue reference="liz-By-VAR"/>
         <segue reference="8h5-TN-vnU"/>
         <segue reference="oX2-g7-8Dv"/>
