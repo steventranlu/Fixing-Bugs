@@ -820,7 +820,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BBk-XV-UB2" kind="show" id="4E1-IO-6lh"/>
+                                            <segue destination="BBk-XV-UB2" kind="show" identifier="ShowTaskTitle" id="4E1-IO-6lh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1065,10 +1065,18 @@
                                 <action selector="cancelBarButton:" destination="BBk-XV-UB2" id="rUe-Bo-Fqp"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="nWI-hf-NDo"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="nWI-hf-NDo">
+                            <connections>
+                                <segue destination="Zw4-BG-3Df" kind="unwind" unwindAction="unwindFromTakeNotesViewControllerWithSegue:" id="Znf-RS-ETO"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="taskItemField" destination="Pap-Bh-K4d" id="fmx-5W-IC6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dok-jp-ntD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Zw4-BG-3Df" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="5377" y="804"/>
         </scene>
