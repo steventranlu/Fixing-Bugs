@@ -48,7 +48,7 @@
                                 <rect key="frame" x="20" y="615" width="374" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">We are here to serve you.                                                        We have designed our application with our consumers in mind, making the process seamless and effortless to use, yet effective at completing the task. We have customer service agents on stand by 24 hours a day, 7 days a week to assist you with all your insurance needs. In addition to 24/7 customer service, we have a robust artificial intelligent chatbot platform that will direct you to necessary field to assist you with any type of insurance complications.</mutableString>
+                                <string key="text">We are here to serve you.                                                        We have designed our application with our consumers in mind, making the process seamless and effortless to use, yet effective at completing the task. We have customer service agents on stand by 24 hours a day, 7 days a week to assist you with all your insurance needs. In addition to 24/7 customer service, we have a robust artificial intelligent chatbot platform that will direct you to necessary field to assist you with any type of insurance complications.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="khN-Uz-RkC">
             <objects>
-                <viewController id="Yi8-9k-F0H" sceneMemberID="viewController">
+                <viewController id="Yi8-9k-F0H" customClass="LogInViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6tu-8w-erj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -204,6 +204,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="firstNameInput" destination="fEY-jO-HLm" id="3wp-5Y-zp7"/>
+                        <segue destination="A2d-52-zd2" kind="show" identifier="SourceVCtoDestinationVC" id="JF4-ja-gzl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ad-Kk-9aW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -534,12 +538,20 @@
                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrD-Xv-L95">
+                                <rect key="frame" x="238" y="550" width="142" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="KoN-gr-nm7"/>
                     </view>
                     <navigationItem key="navigationItem" id="oRW-oO-PbA"/>
                     <connections>
+                        <outlet property="firstNameField" destination="UrD-Xv-L95" id="uwS-Mt-pqu"/>
                         <outlet property="imageAIBot" destination="gSp-ne-fqc" id="Wx1-LQ-aCg"/>
                         <outlet property="labelAIBot" destination="seb-us-kMU" id="cby-gT-l4h"/>
                     </connections>
@@ -581,7 +593,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sXb-RB-x5V">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="189"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <mutableString key="text">The "Current Updates to Insurance" section will provide you with the most recent and up to date information on your insurance policies. Changes due to global pandemics or other natural disasters causing a shift to your insurance policy will be available here and available for consumers to discuss and ask questions relating to policy changes or mandatory governmental updates. Updates will be provide daily at 9 AM PST. It's important to update and inform our consumers of any potential changes or modifications to their insurance plans and policies. </mutableString>
+                                                    <string key="text">The "Current Updates to Insurance" section will provide you with the most recent and up to date information on your insurance policies. Changes due to global pandemics or other natural disasters causing a shift to your insurance policy will be available here and available for consumers to discuss and ask questions relating to policy changes or mandatory governmental updates. Updates will be provide daily at 9 AM PST. It's important to update and inform our consumers of any potential changes or modifications to their insurance plans and policies. </string>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1369,7 +1381,7 @@
         <segue reference="4E1-IO-6lh"/>
         <segue reference="liz-By-VAR"/>
         <segue reference="8h5-TN-vnU"/>
-        <segue reference="oX2-g7-8Dv"/>
+        <segue reference="JF4-ja-gzl"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

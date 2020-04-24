@@ -13,11 +13,14 @@ class AIChatBotViewController: UIViewController {
     @IBOutlet weak var imageAIBot: UIImageView!
     @IBOutlet weak var labelAIBot: UILabel!
     
+    @IBOutlet weak var firstNameField: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
+
     
     
     @IBAction func buttonSolve(_ sender: UIButton) {
