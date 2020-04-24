@@ -21,7 +21,7 @@ class AIChatBotViewController: UIViewController {
     
     
     @IBAction func buttonSolve(_ sender: UIButton) {
-        if labelAIBot.text == "Hi! I'm AI Chatbot.                   Let me help you." {
+        if labelAIBot.text == "Hi! I'm AI Chatbot, Quincy.                        Let me help you." {
             imageAIBot.image = UIImage(named: "13")
             labelAIBot.text = "Ops. Unfotunately, our AI Chat Bot is currently unavailable."
         } else if labelAIBot.text == "Ops. Unfotunately, our AI Chat Bot is currently unavailable."{

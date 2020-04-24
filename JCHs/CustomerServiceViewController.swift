@@ -70,7 +70,7 @@ class CustomerServiceViewController: UIViewController {
         imageMiddle.image = UIImage(named: "3")
         imageBottom.image = UIImage(named: "4")
         imageFour.image = UIImage(named: "22")
-        textField.text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."
+        textField.text = "Welcome to our 24/7 customer service agents. With our application, you are able to call us directly, send emails, and document any of your claims through virtual messaging. At JCHs, our goal is to bring joy, be convenient, be helpful, and bring satisfaction while utilizing our application. Feel free to reach out with any comments or concerns."
         
     }
     
