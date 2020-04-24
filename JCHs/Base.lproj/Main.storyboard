@@ -1204,14 +1204,18 @@
             </objects>
             <point key="canvasLocation" x="5376.811594202899" y="803.57142857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Customer Feed Back View Controller-->
         <scene sceneID="xF2-GM-fdH">
             <objects>
-                <viewController id="KOo-gl-Lob" sceneMemberID="viewController">
+                <viewController id="KOo-gl-Lob" customClass="CustomerFeedBackViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Tt-nf-tXE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="OqX-O5-mrv">
+                                <rect key="frame" x="0.0" y="88" width="414" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zcC-lL-LZZ">
                                 <rect key="frame" x="0.0" y="88" width="414" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1227,10 +1231,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank you for joining our mobile application." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGc-VL-1W7">
-                                <rect key="frame" x="20" y="824" width="374" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGc-VL-1W7">
+                                <rect key="frame" x="20" y="820" width="374" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                <string key="text">Thank you for participating in our Customer Feedback system. Information will be kept confidential and used for consumer analysis only.</string>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1293,12 +1298,29 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="KOo-gl-Lob" eventType="touchUpInside" id="Emp-Dj-nhU"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright ©" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbz-Uy-i1Y">
+                                <rect key="frame" x="20" y="844" width="374" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="z7s-hd-UoH"/>
                     </view>
                     <navigationItem key="navigationItem" id="8do-y8-c7j"/>
+                    <connections>
+                        <outlet property="additionalFeedback" destination="sQM-sg-qec" id="xAs-SE-QrI"/>
+                        <outlet property="navigationFeedback" destination="pTP-XU-efW" id="D7C-iw-iHm"/>
+                        <outlet property="outOfTenFeedback" destination="Ewe-V5-m3c" id="uYb-3E-glQ"/>
+                        <outlet property="recommendFeedback" destination="lLA-sV-ElD" id="eKD-9U-wqd"/>
+                        <outlet property="thankYouMessage" destination="uGc-VL-1W7" id="rk8-JI-X89"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bye-Tt-5R6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9" id="Lbs-yE-VYS">
@@ -1306,7 +1328,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="6517" y="113"/>
+            <point key="canvasLocation" x="6515.9420289855079" y="112.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="533-KB-4o0">
@@ -1334,6 +1356,7 @@
         <image name="15" width="180" height="280"/>
         <image name="16" width="750" height="1334"/>
         <image name="17" width="736" height="1308"/>
+        <image name="18" width="640" height="1136"/>
         <image name="19" width="1920" height="1279"/>
         <image name="2" width="318" height="159"/>
         <image name="20" width="1920" height="1080"/>
