@@ -28,24 +28,29 @@ class CustomerFeedBackViewController: UIViewController {
         super.viewDidLoad()
         thankYouMessage.text = ""
     }
+
     
     @IBAction func submitButton(_ sender: UIButton) {
-        let stringNavigationFeedback = navigationFeedback.text!
-        let doubleOutOfTenFeedback = Double(outOfTenFeedback.text!)
-        let stringRecommendedFeedback = recommendFeedback.text!
-        let stringAdditionalFeedback = additionalFeedback.text!
-        
-        navigationFeedbackArray.append(stringNavigationFeedback)
-        outOfTenFeedbackArray.append(doubleOutOfTenFeedback!)
-        recommendFeedbackArray.append(stringRecommendedFeedback)
-        additionalFeedbackArray.append(stringAdditionalFeedback)
-        
-        navigationFeedback.text = ""
-        outOfTenFeedback.text = ""
-        recommendFeedback.text = ""
-        additionalFeedback.text = ""
+        if navigationFeedback.text! == "" {
+            thankYouMessage.text = "Please fill out all areas of questionnaire."
+        }; if outOfTenFeedback.text! == "" {
+            thankYouMessage.text = "Please fill out all areas of questionnaire."
+        }; if recommendFeedback.text! == "" {
+            thankYouMessage.text = "Please fill out all areas of questionnaire."
+        }; if additionalFeedback.text! == "" {
+            thankYouMessage.text = "Please fill out all areas of questionnaire."
+        } else {
         thankYouMessage.text = "Thank you for participating in our Customer Feedback system. Information will be kept confidential and used for consumer analysis only."
+            let stringNavigationFeedback = navigationFeedback.text!
+            navigationFeedbackArray.append(stringNavigationFeedback)
+            let doubleOutOfTenFeedback = Double(outOfTenFeedback.text!)
+            outOfTenFeedbackArray.append(doubleOutOfTenFeedback!)
+            let stringRecommendedFeedback = recommendFeedback.text!
+            recommendFeedbackArray.append(stringRecommendedFeedback)
+            let stringAdditionalFeedback = additionalFeedback.text!
+            additionalFeedbackArray.append(stringAdditionalFeedback)
     }
     
     
+}
 }
