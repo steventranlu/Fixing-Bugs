@@ -10,14 +10,20 @@ import UIKit
 
 class ManageDocumentsViewController: UIViewController {
 
+    @IBOutlet weak var labelUnavailable: UILabel!
     @IBOutlet weak var tableView: UITableView!
-    var takeNotes = ["Pay Insurance Bills (May 2021)","Call Insurance Provider", "'Add Task'"]
+    @IBOutlet weak var buttonScanReceipts: UIButton!
+    @IBOutlet weak var buttonManageDocuments: UIButton!
+    
+    
+    var takeNotes = ["Call MOM and POPS!", "Pay Car Insurance (Feb 2021)","Pay Rent Insurance Bills (May 2021)","Call Insurance Provider", "'Add Task'"]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        labelUnavailable.text = ""
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowTaskTitle" {
@@ -31,7 +37,6 @@ class ManageDocumentsViewController: UIViewController {
         }
     }
     
-    
     @IBAction func unwindFromTakeNotesViewController(segue: UIStoryboardSegue) {
         let source = segue.source as! TakeNotesViewController
         if let indexPath = tableView.indexPathForSelectedRow {
@@ -43,11 +48,13 @@ class ManageDocumentsViewController: UIViewController {
             tableView.insertRows(at: [newIndexPath], with: .bottom)
             tableView.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
         }
-        
-        
     }
-    
-    
+    @IBAction func buttonScanReceipts(_ sender: UIButton) {
+        labelUnavailable.text = "Purchase Scanning feature for $1.99!"
+    }
+    @IBAction func buttonManageDocuments(_ sender: UIButton) {
+        labelUnavailable.text = "Purchase Document Management feature for $3.99!"
+    }
     
 
 
