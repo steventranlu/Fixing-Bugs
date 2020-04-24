@@ -33,7 +33,7 @@ class CustomerServiceViewController: UIViewController {
 
     @IBAction func buttonCallUsNull(_ sender: UIButton) {
         imageUnavailable.image = UIImage(named: "15")
-        labelUnavailable.text = "Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
+        labelUnavailable.text = "Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
         imageTop.image = UIImage(named: "")
         imageMiddle.image = UIImage(named: "")
         imageBottom.image = UIImage(named: "")
@@ -44,7 +44,7 @@ class CustomerServiceViewController: UIViewController {
     
     @IBAction func buttonMessageUsNull(_ sender: UIButton) {
         imageUnavailable.image = UIImage(named: "15")
-        labelUnavailable.text = "Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
+        labelUnavailable.text = "Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
         imageTop.image = UIImage(named: "")
         imageMiddle.image = UIImage(named: "")
         imageBottom.image = UIImage(named: "")
@@ -54,7 +54,7 @@ class CustomerServiceViewController: UIViewController {
     
     @IBAction func buttonSendUsPhotos(_ sender: UIButton) {
         imageUnavailable.image = UIImage(named: "15")
-        labelUnavailable.text = "Oh no. Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
+        labelUnavailable.text = "Unfortunately, at this time, all our representatives are currently busy assisting other customers. Please try again."
         imageTop.image = UIImage(named: "")
         imageMiddle.image = UIImage(named: "")
         imageBottom.image = UIImage(named: "")
