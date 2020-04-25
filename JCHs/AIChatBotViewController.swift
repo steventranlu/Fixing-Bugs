@@ -15,10 +15,6 @@ class AIChatBotViewController: UIViewController {
     
     @IBOutlet weak var firstNameField: UILabel!
     
-    var firstName = ""
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -26,15 +22,15 @@ class AIChatBotViewController: UIViewController {
     
     
     @IBAction func buttonSolve(_ sender: UIButton) {
-        if labelAIBot.text == "Hi! I'm AI Chatbot, Quincy.                        Let me help you." {
+        if labelAIBot.text == "Hello! I'm AI               Chatbot, Quincy.                        Let me help you." {
             imageAIBot.image = UIImage(named: "13")
-            labelAIBot.text = "Ops. Unfotunately, our AI Chat Bot is currently unavailable."
-        } else if labelAIBot.text == "Ops. Unfotunately, our AI Chat Bot is currently unavailable."{
+            labelAIBot.text = "Ops! Unfotunately, I'm currently unavailable."
+        } else if labelAIBot.text == "Ops! Unfotunately, I'm currently unavailable."{
             imageAIBot.image = UIImage(named: "13")
-            labelAIBot.text = "Available with update 1.2.14."
-        } else if labelAIBot.text == "Available with update 1.2.14." {
+            labelAIBot.text = "I'll be available with update 1.2.14."
+        } else if labelAIBot.text == "I'll be available with update 1.2.14." {
             imageAIBot.image = UIImage(named: "13")
-            labelAIBot.text = "Ops. Unfotunately, our AI Chat Bot is currently unavailable."
+            labelAIBot.text = "Ops! Unfotunately, I'm currently unavailable."
         }
     
     }

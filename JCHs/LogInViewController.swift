@@ -10,13 +10,24 @@ import UIKit
 
 class LogInViewController: UIViewController {
 
-    @IBOutlet weak var firstNameInput: UITextField!
-
+    @IBOutlet weak var textField: UITextField!
+    
+    var firstName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
 
-
+    @IBAction func logInButton(_ sender: UIButton) {
+        self.firstName = textField.text!
+        performSegue(withIdentifier: "SourceVCtoDestinationVC", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! OptionsViewController
+        destination.firstName = self.firstName
+    }
+    
+    
+    
 }

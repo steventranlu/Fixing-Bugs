@@ -13,6 +13,7 @@
 		D2FA4050245258AE00EE50FF /* TakeNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA404F245258AE00EE50FF /* TakeNotesViewController.swift */; };
 		D2FA40522453713800EE50FF /* CustomerFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA40512453713800EE50FF /* CustomerFeedBackViewController.swift */; };
 		D2FA40562453B0A900EE50FF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA40552453B0A900EE50FF /* LogInViewController.swift */; };
+		D2FA405E2453E02D00EE50FF /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA405D2453E02D00EE50FF /* OptionsViewController.swift */; };
 		D2FFD3C1244A655600491D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C0244A655600491D7A /* AppDelegate.swift */; };
 		D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C2244A655600491D7A /* SceneDelegate.swift */; };
 		D2FFD3C5244A655600491D7A /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFD3C4244A655600491D7A /* FrontPageViewController.swift */; };
@@ -28,6 +29,7 @@
 		D2FA404F245258AE00EE50FF /* TakeNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeNotesViewController.swift; sourceTree = "<group>"; };
 		D2FA40512453713800EE50FF /* CustomerFeedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerFeedBackViewController.swift; sourceTree = "<group>"; };
 		D2FA40552453B0A900EE50FF /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D2FA405D2453E02D00EE50FF /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		D2FFD3BD244A655600491D7A /* JCHs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCHs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FFD3C0244A655600491D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2FFD3C2244A655600491D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D2FFD3C2244A655600491D7A /* SceneDelegate.swift */,
 				D2FFD3C4244A655600491D7A /* FrontPageViewController.swift */,
 				D2FA40552453B0A900EE50FF /* LogInViewController.swift */,
+				D2FA405D2453E02D00EE50FF /* OptionsViewController.swift */,
 				D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */,
 				D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */,
 				D2FA404D245255A400EE50FF /* ManageDocumentsViewController.swift */,
@@ -165,6 +168,7 @@
 				D2FA40522453713800EE50FF /* CustomerFeedBackViewController.swift in Sources */,
 				D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */,
 				D2FA4050245258AE00EE50FF /* TakeNotesViewController.swift in Sources */,
+				D2FA405E2453E02D00EE50FF /* OptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

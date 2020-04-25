@@ -202,7 +202,7 @@
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XNK-Vn-AEc" kind="show" id="9WG-Tf-wCJ"/>
+                                    <action selector="logInButton:" destination="Yi8-9k-F0H" eventType="touchUpInside" id="o5Z-VK-FSh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -211,17 +211,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="waI-6D-3fO"/>
                     <connections>
-                        <outlet property="firstNameInput" destination="fEY-jO-HLm" id="3wp-5Y-zp7"/>
+                        <outlet property="textField" destination="fEY-jO-HLm" id="3wp-5Y-zp7"/>
+                        <segue destination="XNK-Vn-AEc" kind="show" identifier="SourceVCtoDestinationVC" id="AdL-Z0-BuQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ad-Kk-9aW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1911.594202898551" y="112.5"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Options View Controller-->
         <scene sceneID="X3b-Cp-756">
             <objects>
-                <tableViewController id="XNK-Vn-AEc" sceneMemberID="viewController">
+                <tableViewController id="XNK-Vn-AEc" customClass="OptionsViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ISH-Aw-wBJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,15 +240,34 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dab-bO-bDE">
-                                                    <rect key="frame" x="20" y="6" width="374" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello, NAME. We're here to help YOU." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCx-Ii-CWJ">
+                                                    <rect key="frame" x="20" y="15" width="374" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="xSQ-Pt-e2J">
+                                        <rect key="frame" x="0.0" y="144.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xSQ-Pt-e2J" id="ndG-I2-8Li">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkJ-yM-yD1">
+                                                    <rect key="frame" x="20" y="-4" width="374" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                                     <state key="normal" title="Updates as of April 20, 2020.">
-                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="k56-cf-T38" kind="show" id="XpS-BX-HLA"/>
+                                                        <segue destination="k56-cf-T38" kind="show" id="sFz-EZ-qLo"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -260,7 +280,7 @@
                             <tableViewSection headerTitle="AI Chatbot" id="2zB-bW-EAw">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="cjE-GV-rB6">
-                                        <rect key="frame" x="0.0" y="200.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="244" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cjE-GV-rB6" id="TXD-Nr-cq0">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -270,7 +290,7 @@
                                                     <rect key="frame" x="20" y="15" width="374" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                    <state key="normal" title="We're here to help YOU.">
+                                                    <state key="normal" title="Let our AI robot help you.">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
@@ -283,7 +303,7 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="rcb-Vb-JFR">
-                                        <rect key="frame" x="0.0" y="244" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="287.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rcb-Vb-JFR" id="EMX-gR-r8V">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -294,7 +314,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                                     <state key="normal" title="How can we help?">
-                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <segue destination="A2d-52-zd2" kind="show" id="oX2-g7-8Dv"/>
@@ -310,7 +330,7 @@
                             <tableViewSection headerTitle="Live Insurance Assistance" id="bxv-4o-tdx">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="RZu-3o-nZY">
-                                        <rect key="frame" x="0.0" y="343.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="387" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RZu-3o-nZY" id="y0w-uZ-3A2">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -332,7 +352,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="wgX-RU-9wR">
-                                        <rect key="frame" x="0.0" y="387" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="430.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wgX-RU-9wR" id="Qtv-si-hYL">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -343,7 +363,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                                     <state key="normal" title="Reach out at any time. ">
-                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <segue destination="jKZ-H1-hoZ" kind="show" id="8dw-sz-1cU"/>
@@ -358,7 +378,7 @@
                             <tableViewSection headerTitle="Manage Your Documents" id="ExS-Eh-w2g">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1to-js-FB6">
-                                        <rect key="frame" x="0.0" y="486.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="530" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1to-js-FB6" id="9ya-Ud-31N">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -368,7 +388,7 @@
                                                     <rect key="frame" x="20" y="16" width="374" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                    <state key="normal" title="Lets take care of your sheets.">
+                                                    <state key="normal" title="Lets take care of your documents.">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
@@ -381,7 +401,7 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="zYN-XE-uVK">
-                                        <rect key="frame" x="0.0" y="530" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="573.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zYN-XE-uVK" id="baC-Mf-fiG">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -391,8 +411,8 @@
                                                     <rect key="frame" x="20" y="-4" width="374" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                    <state key="normal" title="Take Notes.">
-                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <state key="normal" title="Take and Save Notes.">
+                                                        <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <segue destination="22l-RQ-0uj" kind="show" id="J8h-V7-VWz"/>
@@ -407,7 +427,7 @@
                             <tableViewSection headerTitle="Rewards" id="SIy-LR-AhR">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hz2-BD-CSG">
-                                        <rect key="frame" x="0.0" y="629.5" width="414" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="673" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hz2-BD-CSG" id="Fwp-0x-3ao">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -418,7 +438,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                                     <state key="normal" title="Earn points and cash back.">
-                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <segue destination="lF5-kJ-h1b" kind="show" id="OsJ-SP-lO3"/>
@@ -433,7 +453,7 @@
                             <tableViewSection headerTitle="JCHs" id="BYw-bn-gDl">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="xZB-sO-04E">
-                                        <rect key="frame" x="0.0" y="729" width="414" height="200"/>
+                                        <rect key="frame" x="0.0" y="772.5" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xZB-sO-04E" id="jzK-mF-GXs">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -467,6 +487,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Q3p-ii-TWa"/>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="dCx-Ii-CWJ" id="HRn-MU-TCb"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Czb-v3-MnO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -536,18 +559,11 @@
                                 <rect key="frame" x="69" y="595" width="240" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi! I'm AI Chatbot, Quincy.                        Let me help you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seb-us-kMU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello! I'm AI               Chatbot, Quincy.                        Let me help you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seb-us-kMU">
                                 <rect key="frame" x="100" y="595" width="136" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrD-Xv-L95">
-                                <rect key="frame" x="238" y="550" width="142" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -556,7 +572,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="oRW-oO-PbA"/>
                     <connections>
-                        <outlet property="firstNameField" destination="UrD-Xv-L95" id="uwS-Mt-pqu"/>
                         <outlet property="imageAIBot" destination="gSp-ne-fqc" id="Wx1-LQ-aCg"/>
                         <outlet property="labelAIBot" destination="seb-us-kMU" id="cby-gT-l4h"/>
                     </connections>
@@ -1381,12 +1396,12 @@
         <image name="9" width="286" height="138"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kHW-BS-CfX"/>
+        <segue reference="hEe-Cg-nDu"/>
         <segue reference="JJA-iM-aoa"/>
         <segue reference="4E1-IO-6lh"/>
         <segue reference="liz-By-VAR"/>
         <segue reference="8h5-TN-vnU"/>
-        <segue reference="oX2-g7-8Dv"/>
+        <segue reference="38o-x5-4xR"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
