@@ -1211,6 +1211,9 @@
                                 <state key="normal" title="Nearest Facility">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jRo-fX-q9i" kind="show" id="kSF-bU-XPE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1224,6 +1227,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDN-tq-DxF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2834.7826086956525" y="112.5"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="ONd-tX-9lM">
+            <objects>
+                <viewController id="jRo-fX-q9i" customClass="MapViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q8d-9V-r4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="P1P-77-awi">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0Ph-Cj-ixo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EbB-Fk-o9V"/>
+                    <connections>
+                        <outlet property="map" destination="P1P-77-awi" id="gJQ-6n-J2u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2I-rj-d0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2834.7826086956525" y="803.57142857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="533-KB-4o0">
