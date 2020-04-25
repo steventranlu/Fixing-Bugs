@@ -1104,11 +1104,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sglobal" translatesAutoresizingMaskIntoConstraints="NO" id="0Zb-27-r9D">
-                                <rect key="frame" x="243" y="583" width="125" height="125"/>
+                                <rect key="frame" x="207" y="583" width="183" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SCoins" translatesAutoresizingMaskIntoConstraints="NO" id="qVQ-1y-9OD">
-                                <rect key="frame" x="42" y="583" width="125" height="125"/>
+                                <rect key="frame" x="18" y="583" width="181" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5yq-BB-v8h">
@@ -1189,19 +1189,19 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SAIRobot" translatesAutoresizingMaskIntoConstraints="NO" id="pE6-Ja-Tay">
-                                <rect key="frame" x="243" y="203" width="125" height="125"/>
+                                <rect key="frame" x="243" y="203" width="151" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="updates-1" translatesAutoresizingMaskIntoConstraints="NO" id="Cwk-Ig-hHj">
-                                <rect key="frame" x="42" y="203" width="125" height="125"/>
+                                <rect key="frame" x="18" y="203" width="217" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SCS" translatesAutoresizingMaskIntoConstraints="NO" id="sWq-40-MQX">
-                                <rect key="frame" x="42" y="397" width="125" height="125"/>
+                                <rect key="frame" x="18" y="397" width="149" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SDM" translatesAutoresizingMaskIntoConstraints="NO" id="zwH-Th-s2K">
-                                <rect key="frame" x="243" y="397" width="125" height="125"/>
+                                <rect key="frame" x="175" y="397" width="219" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BgO-ZG-GH1">
