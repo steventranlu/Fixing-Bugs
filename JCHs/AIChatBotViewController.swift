@@ -14,11 +14,13 @@ class AIChatBotViewController: UIViewController {
     @IBOutlet weak var labelAIBot: UILabel!
     
     @IBOutlet weak var firstNameField: UILabel!
-
+    
+    var firstName = ""
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     

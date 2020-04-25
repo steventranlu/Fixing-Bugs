@@ -11,12 +11,11 @@ import UIKit
 class LogInViewController: UIViewController {
 
     @IBOutlet weak var firstNameInput: UITextField!
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
     
 
 

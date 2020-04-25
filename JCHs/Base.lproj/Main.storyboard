@@ -193,20 +193,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b70-ct-zYI">
+                                <rect key="frame" x="163" y="569" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XNK-Vn-AEc" kind="show" id="9WG-Tf-wCJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GIn-2w-XBt"/>
                     </view>
-                    <navigationItem key="navigationItem" id="waI-6D-3fO">
-                        <barButtonItem key="rightBarButtonItem" title="Log In" id="pJE-IM-TnD">
-                            <connections>
-                                <segue destination="XNK-Vn-AEc" kind="show" id="lgK-wX-ZmU"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="waI-6D-3fO"/>
                     <connections>
                         <outlet property="firstNameInput" destination="fEY-jO-HLm" id="3wp-5Y-zp7"/>
-                        <segue destination="A2d-52-zd2" kind="show" identifier="SourceVCtoDestinationVC" id="JF4-ja-gzl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ad-Kk-9aW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1381,7 +1386,7 @@
         <segue reference="4E1-IO-6lh"/>
         <segue reference="liz-By-VAR"/>
         <segue reference="8h5-TN-vnU"/>
-        <segue reference="JF4-ja-gzl"/>
+        <segue reference="oX2-g7-8Dv"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

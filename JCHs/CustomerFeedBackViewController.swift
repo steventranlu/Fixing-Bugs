@@ -49,6 +49,10 @@ class CustomerFeedBackViewController: UIViewController {
             recommendFeedbackArray.append(stringRecommendedFeedback)
             let stringAdditionalFeedback = additionalFeedback.text!
             additionalFeedbackArray.append(stringAdditionalFeedback)
+            navigationFeedback.text = ""
+            outOfTenFeedback.text = ""
+            recommendFeedback.text = ""
+            additionalFeedback.text = ""
     }
     
     
