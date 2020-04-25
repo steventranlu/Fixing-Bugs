@@ -24,7 +24,7 @@ class LogInViewController: UIViewController {
         performSegue(withIdentifier: "SourceVCtoDestinationVC", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destination = segue.destination as! OptionsViewController
+        let destination = segue.destination as! ServicesViewController
         destination.firstName = self.firstName
     }
     
