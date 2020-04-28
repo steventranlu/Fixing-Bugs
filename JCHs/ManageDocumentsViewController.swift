@@ -53,7 +53,7 @@ class ManageDocumentsViewController: UIViewController {
         labelUnavailable.text = "Purchase Scanning feature for $1.99!"
     }
     @IBAction func buttonManageDocuments(_ sender: UIButton) {
-        labelUnavailable.text = "Purchase Document Management feature for $3.99!"
+        labelUnavailable.text = "Purchase Document Management feature for $1.99!"
     }
     
 
