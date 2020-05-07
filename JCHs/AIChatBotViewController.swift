@@ -22,7 +22,7 @@ class AIChatBotViewController: UIViewController {
     
     
     @IBAction func buttonSolve(_ sender: UIButton) {
-        if labelAIBot.text == "Hello! I'm AI               Chatbot, Quincy.                        Let me help you." {
+        if labelAIBot.text == "Hello. I'm AI               Chatbot, Quincy.                        Let me help you." {
             labelAIBot.text = "Ops! Unfotunately, I'm currently unavailable."
         } else if labelAIBot.text == "Ops! Unfotunately, I'm currently unavailable."{
             labelAIBot.text = "I'll be available with update 1.2.14."
