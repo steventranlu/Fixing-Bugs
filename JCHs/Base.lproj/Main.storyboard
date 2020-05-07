@@ -754,6 +754,7 @@ Medications bills covered
                         <outlet property="addToCartType4" destination="Tmn-wN-53o" id="57x-Jd-8q9"/>
                         <outlet property="cartTextField" destination="6ZM-yi-0zk" id="BF4-XE-9Le"/>
                         <outlet property="pricePerPackage" destination="pDZ-XB-5r8" id="mOf-Jk-hWV"/>
+                        <outlet property="totalCostView" destination="pDZ-XB-5r8" id="d6t-YN-fKD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHJ-tl-iNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
