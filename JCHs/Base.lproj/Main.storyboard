@@ -453,10 +453,10 @@
             </objects>
             <point key="canvasLocation" x="2860.8695652173915" y="-553.125"/>
         </scene>
-        <!--View Controller-->
+        <!--Purchase Insurance View Controller-->
         <scene sceneID="fsV-2W-r1j">
             <objects>
-                <viewController id="FeC-mp-WHA" sceneMemberID="viewController">
+                <viewController id="FeC-mp-WHA" customClass="PurchaseInsuranceViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1hH-EC-hGs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -539,12 +539,12 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6ZM-yi-0zk">
-                                                <rect key="frame" x="20" y="865" width="240" height="128"/>
+                                                <rect key="frame" x="16" y="865" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="10"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="knw-fA-vau">
@@ -590,6 +590,9 @@ Medications bills covered
                                                 <state key="normal" title="Add to Cart (Type 4)">
                                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addToCartType4Func:" destination="FeC-mp-WHA" eventType="touchUpInside" id="ZAm-Mc-R6P"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$60/month" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ns0-L1-6kr">
                                                 <rect key="frame" x="288" y="336" width="106" height="23"/>
@@ -602,7 +605,7 @@ Medications bills covered
                                                 <rect key="frame" x="20" y="140" width="374" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdJ-C0-M3P">
@@ -633,6 +636,9 @@ Medications bills covered
                                                 <state key="normal" title="Add to Cart (Type 1)">
                                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addToCartType1Func:" destination="FeC-mp-WHA" eventType="touchUpInside" id="Sf9-pe-bDz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-kO-p2B">
                                                 <rect key="frame" x="136" y="460" width="143" height="30"/>
@@ -641,6 +647,9 @@ Medications bills covered
                                                 <state key="normal" title="Add to Cart (Type 2)">
                                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addToCartType2Func:" destination="FeC-mp-WHA" eventType="touchUpInside" id="QkP-1q-Fgs"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Wr-VR-YS7">
                                                 <rect key="frame" x="136" y="633" width="143" height="30"/>
@@ -649,6 +658,9 @@ Medications bills covered
                                                 <state key="normal" title="Add to Cart (Type 3)">
                                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addToCartType3Func:" destination="FeC-mp-WHA" eventType="touchUpInside" id="Sez-Z3-fJh"/>
+                                                </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pDZ-XB-5r8">
                                                 <rect key="frame" x="288" y="865" width="103" height="128"/>
@@ -687,6 +699,14 @@ Medications bills covered
                                             <constraint firstAttribute="height" constant="1162" id="uL5-MC-b7b"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRa-qn-PRo">
+                                        <rect key="frame" x="10" y="10" width="374" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Provide Feedback">
+                                            <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWK-qd-g1t">
                                         <rect key="frame" x="17" y="532" width="374" height="105"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -727,6 +747,14 @@ Medications bills covered
                     </view>
                     <navigationItem key="navigationItem" id="9e7-Mq-LTX"/>
                     <size key="freeformSize" width="414" height="1250"/>
+                    <connections>
+                        <outlet property="addToCartType1" destination="OIs-6r-TJb" id="1g5-nH-dij"/>
+                        <outlet property="addToCartType2" destination="aoV-kO-p2B" id="1nq-5a-DfM"/>
+                        <outlet property="addToCartType3" destination="9Wr-VR-YS7" id="lXV-zd-FjU"/>
+                        <outlet property="addToCartType4" destination="Tmn-wN-53o" id="57x-Jd-8q9"/>
+                        <outlet property="cartTextField" destination="6ZM-yi-0zk" id="BF4-XE-9Le"/>
+                        <outlet property="pricePerPackage" destination="pDZ-XB-5r8" id="mOf-Jk-hWV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHJ-tl-iNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1625,7 +1653,7 @@ Medications bills covered
                                 <rect key="frame" x="0.0" y="88" width="414" height="1223.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NsL-Mu-CHK">
-                                        <rect key="frame" x="0.0" y="34" width="414" height="1223.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1223.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="rLD-Qk-1LV">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="820"/>
