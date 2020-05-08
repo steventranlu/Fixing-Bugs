@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D202E1D42464A04500487784 /* PurchaseInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202E1D32464A04500487784 /* PurchaseInsuranceViewController.swift */; };
+		D20718E4246621A200CBA2CF /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20718E3246621A200CBA2CF /* CheckOutViewController.swift */; };
 		D27D6AE4244FB2FC00DDE413 /* AIChatBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */; };
 		D27D6AE6244FC2E400DDE413 /* CustomerServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */; };
 		D2FA404E245255A400EE50FF /* ManageDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA404D245255A400EE50FF /* ManageDocumentsViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		D202E1D32464A04500487784 /* PurchaseInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseInsuranceViewController.swift; sourceTree = "<group>"; };
+		D20718E3246621A200CBA2CF /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 		D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatBotViewController.swift; sourceTree = "<group>"; };
 		D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerServiceViewController.swift; sourceTree = "<group>"; };
 		D2FA404D245255A400EE50FF /* ManageDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageDocumentsViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				D2FA40552453B0A900EE50FF /* LogInViewController.swift */,
 				D2FBCF3D2454CDB10062D2B6 /* ServicesViewController.swift */,
 				D202E1D32464A04500487784 /* PurchaseInsuranceViewController.swift */,
+				D20718E3246621A200CBA2CF /* CheckOutViewController.swift */,
 				D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */,
 				D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */,
 				D2FA404D245255A400EE50FF /* ManageDocumentsViewController.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				D2FBCF422454E1D80062D2B6 /* MapViewController.swift in Sources */,
 				D2FFD3C5244A655600491D7A /* FrontPageViewController.swift in Sources */,
+				D20718E4246621A200CBA2CF /* CheckOutViewController.swift in Sources */,
 				D27D6AE6244FC2E400DDE413 /* CustomerServiceViewController.swift in Sources */,
 				D2FA40562453B0A900EE50FF /* LogInViewController.swift in Sources */,
 				D2FFD3C1244A655600491D7A /* AppDelegate.swift in Sources */,
