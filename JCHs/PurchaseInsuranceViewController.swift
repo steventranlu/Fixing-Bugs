@@ -41,7 +41,7 @@ class PurchaseInsuranceViewController: UIViewController {
             totalCost = totalCost + arrayChosenInsurancePrice[count]
         }
         cartTextField.text = "\n \(allInsuranceType)"
-        totalCostView.text = "$\(totalCost)/month"
+        totalCostView.text = "Total: $\(totalCost)/Month"
     }
     
     
@@ -56,7 +56,7 @@ class PurchaseInsuranceViewController: UIViewController {
             totalCost = totalCost + arrayChosenInsurancePrice[count]
         }
         cartTextField.text = "\n \(allInsuranceType)"
-        totalCostView.text = "$\(totalCost)/month"
+        totalCostView.text = "Total: $\(totalCost)/Month"
     }
     
     
@@ -71,7 +71,7 @@ class PurchaseInsuranceViewController: UIViewController {
             totalCost = totalCost + arrayChosenInsurancePrice[count]
         }
         cartTextField.text = "\n \(allInsuranceType)"
-        totalCostView.text = "$\(totalCost)/month"
+        totalCostView.text = "Total: $\(totalCost)/Month"
     }
     
     
@@ -86,7 +86,7 @@ class PurchaseInsuranceViewController: UIViewController {
             totalCost = totalCost + arrayChosenInsurancePrice[count]
         }
         cartTextField.text = "\n \(allInsuranceType)"
-        totalCostView.text = "$\(totalCost)/month"
+        totalCostView.text = "Total: $\(totalCost)/Month"
     }
     
 }

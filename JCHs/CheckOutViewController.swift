@@ -15,7 +15,6 @@ class CheckOutViewController: UIViewController {
 
     }
     @IBAction func myUnwindFunction(unwindSegue: UIStoryboardSegue){
-        
     }
     @IBAction func closeClicked(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
