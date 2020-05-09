@@ -18,6 +18,8 @@ class ManageDocumentsViewController: UIViewController {
     
     var takeNotes = ["Call MOM and POPS!", "Pay Car Insurance (Feb 2021)","Pay Rent Insurance Bills (May 2021)","Call Insurance Provider", "'Add Task'"]
     
+    var notesArray = ["Add your own Notes","Add your own Notes","Add your own Notes","Add your own Notes","Add your own Notes" ]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

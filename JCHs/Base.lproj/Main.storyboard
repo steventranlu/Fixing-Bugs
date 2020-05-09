@@ -1625,6 +1625,7 @@ Medications bills covered
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="notesItemField" destination="yDE-Xq-fmo" id="wlO-XD-X8O"/>
                         <outlet property="taskItemField" destination="Pap-Bh-K4d" id="fmx-5W-IC6"/>
                     </connections>
                 </viewController>
