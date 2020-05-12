@@ -10,6 +10,8 @@
 		D202E1D42464A04500487784 /* PurchaseInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202E1D32464A04500487784 /* PurchaseInsuranceViewController.swift */; };
 		D20718E4246621A200CBA2CF /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20718E3246621A200CBA2CF /* CheckOutViewController.swift */; };
 		D276B36F246B4DB000A04261 /* DocumentManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276B36E246B4DB000A04261 /* DocumentManagementViewController.swift */; };
+		D276B375246B556D00A04261 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276B374246B556D00A04261 /* NotesTableViewController.swift */; };
+		D276B377246B5AB400A04261 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276B376246B5AB400A04261 /* Struct.swift */; };
 		D27D6AE4244FB2FC00DDE413 /* AIChatBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */; };
 		D27D6AE6244FC2E400DDE413 /* CustomerServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */; };
 		D2FA40522453713800EE50FF /* CustomerFeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA40512453713800EE50FF /* CustomerFeedBackViewController.swift */; };
@@ -28,6 +30,8 @@
 		D202E1D32464A04500487784 /* PurchaseInsuranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseInsuranceViewController.swift; sourceTree = "<group>"; };
 		D20718E3246621A200CBA2CF /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 		D276B36E246B4DB000A04261 /* DocumentManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManagementViewController.swift; sourceTree = "<group>"; };
+		D276B374246B556D00A04261 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		D276B376246B5AB400A04261 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatBotViewController.swift; sourceTree = "<group>"; };
 		D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerServiceViewController.swift; sourceTree = "<group>"; };
 		D2FA40512453713800EE50FF /* CustomerFeedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerFeedBackViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				D27D6AE3244FB2FC00DDE413 /* AIChatBotViewController.swift */,
 				D27D6AE5244FC2E400DDE413 /* CustomerServiceViewController.swift */,
 				D276B36E246B4DB000A04261 /* DocumentManagementViewController.swift */,
+				D276B374246B556D00A04261 /* NotesTableViewController.swift */,
+				D276B376246B5AB400A04261 /* Struct.swift */,
 				D2FBCF412454E1D80062D2B6 /* MapViewController.swift */,
 				D2FA40512453713800EE50FF /* CustomerFeedBackViewController.swift */,
 				D2FFD3C6244A655600491D7A /* Main.storyboard */,
@@ -177,6 +183,8 @@
 				D2FA40522453713800EE50FF /* CustomerFeedBackViewController.swift in Sources */,
 				D2FFD3C3244A655600491D7A /* SceneDelegate.swift in Sources */,
 				D2FBCF3E2454CDB10062D2B6 /* ServicesViewController.swift in Sources */,
+				D276B377246B5AB400A04261 /* Struct.swift in Sources */,
+				D276B375246B556D00A04261 /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1402,10 +1402,11 @@ Medications bills covered
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feel free to use our document management system to digitalize your documents and receipts." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMd-yi-8Hz">
-                                <rect key="frame" x="20" y="163" width="374" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMd-yi-8Hz">
+                                <rect key="frame" x="20" y="163" width="374" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Feel free to use our document management system to digitalize your documents and receipts. With our document management system, you're able to take notes and add important information.</string>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1418,25 +1419,20 @@ Medications bills covered
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KC-vx-D8O">
-                                <rect key="frame" x="-1" y="748" width="414" height="79"/>
+                                <rect key="frame" x="0.0" y="592" width="414" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Call2" translatesAutoresizingMaskIntoConstraints="NO" id="cmM-Kt-0PV">
-                                <rect key="frame" x="50" y="748" width="77" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Document Management" translatesAutoresizingMaskIntoConstraints="NO" id="qvC-Z6-9a1">
-                                <rect key="frame" x="266" y="748" width="107" height="79"/>
+                                <rect key="frame" x="232" y="592" width="107" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c6R-B7-35j">
-                                <rect key="frame" x="0.0" y="208" width="414" height="492"/>
+                                <rect key="frame" x="0.0" y="252" width="414" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -1453,6 +1449,10 @@ Medications bills covered
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Call2" translatesAutoresizingMaskIntoConstraints="NO" id="cmM-Kt-0PV">
+                                <rect key="frame" x="86" y="586" width="77" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gEY-x4-C8S"/>
@@ -1472,16 +1472,17 @@ Medications bills covered
             </objects>
             <point key="canvasLocation" x="4537.68115942029" y="112.5"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Notes Table View Controller-->
         <scene sceneID="0N6-ub-1KW">
             <objects>
-                <tableViewController id="s25-9u-Le2" sceneMemberID="viewController">
+                <tableViewController id="s25-9u-Le2" customClass="NotesTableViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1x9-Of-uB3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="sectionIndexBackgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
-                            <tableViewSection headerTitle="To Do Item" id="eYd-Et-JfX">
+                            <tableViewSection headerTitle="Task Title" id="eYd-Et-JfX">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pUO-SY-i4q">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -1501,22 +1502,22 @@ Medications bills covered
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Notes" id="vkO-d8-zuW">
+                            <tableViewSection headerTitle="Task Information and Notes" id="vkO-d8-zuW">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="250" id="wIN-rM-GIe">
-                                        <rect key="frame" x="0.0" y="127.5" width="414" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="500" id="wIN-rM-GIe">
+                                        <rect key="frame" x="0.0" y="127.5" width="414" height="500"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wIN-rM-GIe" id="e6r-3t-aVA">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3yN-wK-EFC">
-                                                    <rect key="frame" x="20" y="11" width="374" height="228"/>
+                                                    <rect key="frame" x="20" y="11" width="374" height="478"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
@@ -1531,13 +1532,27 @@ Medications bills covered
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="S5Q-rj-82z">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ne2-FU-Knj"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="SJ5-Or-b7r"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ne2-FU-Knj">
+                            <connections>
+                                <action selector="cancelButtonPressed:" destination="s25-9u-Le2" id="LLE-RX-0Nj"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="SJ5-Or-b7r">
+                            <connections>
+                                <segue destination="aME-Zw-xxj" kind="unwind" unwindAction="unwindFromNotesWithSegue:" id="Ehs-5V-5PS"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameField" destination="qqt-Xf-q4P" id="CXf-Qz-Vio"/>
+                        <outlet property="noteView" destination="3yN-wK-EFC" id="NBV-ps-kvL"/>
+                        <outlet property="saveBarButton" destination="SJ5-Or-b7r" id="Cdh-yn-Ty8"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpy-EN-2dS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="aME-Zw-xxj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="6229" y="1005"/>
+            <point key="canvasLocation" x="6228.985507246377" y="1004.4642857142857"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SuH-MU-GXa">
@@ -2594,7 +2609,7 @@ Medications bills covered
         <segue reference="P6y-Xe-8R8"/>
         <segue reference="JJA-iM-aoa"/>
         <segue reference="4E1-IO-6lh"/>
-        <segue reference="96F-P7-rc5"/>
+        <segue reference="1W3-2d-c84"/>
         <segue reference="DAh-pa-bQQ"/>
         <segue reference="Dew-e0-WB0"/>
         <segue reference="jKV-D4-bS3"/>
