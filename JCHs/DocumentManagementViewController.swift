@@ -12,6 +12,7 @@ class DocumentManagementViewController: UIViewController {
     
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var unavailableLabel: UILabel!
     
     
     var toDoItems: [ToDoItem] = []
@@ -68,6 +69,17 @@ class DocumentManagementViewController: UIViewController {
         saveData()
     }
     
+    
+    @IBAction func receiptsScanner(_ sender: UIButton) {
+        unavailableLabel.text = "Purchase our Scanning feature for $1.49/month."
+    }
+    
+    
+    @IBAction func documentManager(_ sender: UIButton) {
+        unavailableLabel.text = "Purchase our Document System feature for $1.99/month."
+    }
+    
+
 }
 
 extension DocumentManagementViewController: UITableViewDelegate, UITableViewDataSource {
