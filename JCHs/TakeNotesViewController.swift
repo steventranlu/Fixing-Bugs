@@ -22,6 +22,7 @@ class TakeNotesViewController: UIViewController {
     
     @IBOutlet weak var notesItemField: UITextView!
     @IBOutlet weak var taskItemField: UITextField!
+    
     @IBAction func cancelBarButton(_ sender: UIBarButtonItem) {
     
         

@@ -32,6 +32,7 @@ class ManageDocumentsViewController: UIViewController {
             let destination = segue.destination as! TakeNotesViewController
             let selectedRow = tableView.indexPathForSelectedRow?.row
             destination.taskTitle = takeNotes[selectedRow!]
+            destination.notesTitle = notesArray[selectedRow!]
         } else {
             if let indexPath = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: indexPath, animated: true)
@@ -47,6 +48,7 @@ class ManageDocumentsViewController: UIViewController {
         } else {
             let newIndexPath = IndexPath(row: takeNotes.count, section: 0)
             takeNotes.append(source.taskTitle)
+            notesArray.append(source.notesTitle)
             tableView.insertRows(at: [newIndexPath], with: .bottom)
             tableView.scrollToRow(at: newIndexPath, at: .bottom, animated: true)
         }
