@@ -19,13 +19,31 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         self.locationManager.requestWhenInUseAuthorization()
         if CLLocationManager.locationServicesEnabled() {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
             locationManager.startUpdatingLocation()
-        }
+            //Current Location of Simulator
+            let location:CLLocationCoordinate2D = CLLocationCoordinate2DMake(37.785834, -122.406417)
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = location
+            annotation.title = "Current Location"
+            annotation.subtitle = "835 Market Street"
+            map.addAnnotation(annotation)
+            
+            let location2:CLLocationCoordinate2D = CLLocationCoordinate2DMake(37.783369, -122.440506)
+            let annotation2 = MKPointAnnotation()
+            annotation2.coordinate = location2
+            annotation2.title = "Kaiser Permanente Pharmacy San Francisco"
+            annotation2.subtitle = "2238 Geary Blvd"
+            map.addAnnotation(annotation2)
+            
 
+            
+
+    }
     }
     
     override func didReceiveMemoryWarning() {

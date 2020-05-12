@@ -16,7 +16,7 @@ class FrontPageViewController: UIViewController {
             }
         }
     }
-    let arraySounds = ["Sound0"]
+    let arraySounds = ["Sound1"]
     func playSound(soundName:String){
         if let sound = NSDataAsset(name: soundName){
             do {
