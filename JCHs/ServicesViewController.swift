@@ -10,12 +10,14 @@ import UIKit
 
 class ServicesViewController: UIViewController {
 
-    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var welcomeLabel2: UILabel!
     
     var firstName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Hello, \(firstName). We're here to help YOU."
+        
+        welcomeLabel2.text = "Hello, \(firstName). We're here to help YOU."
 
     }
 
