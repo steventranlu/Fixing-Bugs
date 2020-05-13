@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="112.5"/>
+            <point key="canvasLocation" x="-2549" y="113"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fKz-YX-RZo">
@@ -165,6 +165,9 @@
                                 <state key="normal" title="AI Chatbot" image="AI Robot">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="A2d-52-zd2" kind="show" id="dHf-6d-eJg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help? We're here 24/7" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2D-Mo-0Hx">
                                 <rect key="frame" x="198" y="816" width="192" height="36"/>
@@ -179,6 +182,9 @@
                                 <state key="normal" image="Customer Service">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jKZ-H1-hoZ" kind="show" id="fdN-Ul-jkC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -188,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U4e-P3-cka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="803.57142857142856"/>
+            <point key="canvasLocation" x="-2549" y="804"/>
         </scene>
         <!--Log In View Controller-->
         <scene sceneID="khN-Uz-RkC">
@@ -275,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ad-Kk-9aW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1911.594202898551" y="112.5"/>
+            <point key="canvasLocation" x="-1552" y="113"/>
         </scene>
         <!--AI ChatBot View Controller-->
         <scene sceneID="64x-nM-3Mn">
@@ -373,7 +379,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Xg-4Z-eRv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5376.811594202899" y="-553.125"/>
+            <point key="canvasLocation" x="5377" y="-553"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Iwd-Bw-KgQ">
@@ -452,7 +458,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vsd-mW-hbr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2860.8695652173915" y="-553.125"/>
+            <point key="canvasLocation" x="788" y="-554"/>
         </scene>
         <!--Purchase Insurance View Controller-->
         <scene sceneID="fsV-2W-r1j">
@@ -778,6 +784,9 @@ Medications bills covered
                                                 <state key="normal" image="Customer Service">
                                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="jKZ-H1-hoZ" kind="show" id="yop-A1-Pp0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zx-Yv-cWd">
                                                 <rect key="frame" x="303" y="1069" width="45" height="50"/>
@@ -785,6 +794,9 @@ Medications bills covered
                                                 <state key="normal" title="AI Chatbot" image="AI Robot">
                                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="A2d-52-zd2" kind="show" id="Sds-cr-a0b"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -826,7 +838,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHJ-tl-iNo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3730" y="-671"/>
+            <point key="canvasLocation" x="2861" y="-671"/>
         </scene>
         <!--Check Out View Controller-->
         <scene sceneID="0iz-Dn-p7Y">
@@ -933,7 +945,7 @@ Medications bills covered
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jKx-rD-eBV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="TsW-l3-C4b" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4538" y="-1238"/>
+            <point key="canvasLocation" x="2859" y="-1460"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZSG-vh-HLP">
@@ -1070,7 +1082,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="udv-ax-ZZ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4537.68115942029" y="-553.125"/>
+            <point key="canvasLocation" x="3719" y="-553"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EjD-Gz-Ep2">
@@ -1088,7 +1100,7 @@ Medications bills covered
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iDr-Mi-Ngv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+            <point key="canvasLocation" x="-3543" y="113"/>
         </scene>
         <!--Customer Service View Controller-->
         <scene sceneID="sWK-KI-rKM">
@@ -1262,7 +1274,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mc2-8y-SyA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3731.884057971015" y="112.5"/>
+            <point key="canvasLocation" x="4538" y="-554"/>
         </scene>
         <!--Document Management View Controller-->
         <scene sceneID="FE9-Gr-laW">
@@ -1389,14 +1401,14 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8DB-DI-8eo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4537.68115942029" y="112.5"/>
+            <point key="canvasLocation" x="4538" y="113"/>
         </scene>
         <!--Notes Table View Controller-->
         <scene sceneID="0N6-ub-1KW">
             <objects>
                 <tableViewController id="s25-9u-Le2" customClass="NotesTableViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1x9-Of-uB3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="sectionIndexBackgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1471,7 +1483,7 @@ Medications bills covered
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hpy-EN-2dS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="aME-Zw-xxj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="5377" y="804"/>
+            <point key="canvasLocation" x="4538" y="1506"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SuH-MU-GXa">
@@ -1637,7 +1649,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8Y-cQ-ZFf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5376.811594202899" y="112.5"/>
+            <point key="canvasLocation" x="6229" y="113"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Uqr-jy-ccx">
@@ -1660,6 +1672,9 @@ Medications bills covered
                                 <state key="normal" title="AI Chatbot" image="AI Robot">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="A2d-52-zd2" kind="show" id="Mud-6i-tGN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help? We're here 24/7" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2md-ai-6B2">
                                 <rect key="frame" x="198" y="816" width="192" height="36"/>
@@ -1674,6 +1689,9 @@ Medications bills covered
                                 <state key="normal" image="Customer Service">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jKZ-H1-hoZ" kind="show" id="7hJ-wK-JAO"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GtE-Hf-3IP">
                                 <rect key="frame" x="29" y="190" width="339" height="102"/>
@@ -1821,7 +1839,7 @@ Medications bills covered
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="7798.5507246376819" y="112.5"/>
+            <point key="canvasLocation" x="10054" y="113"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="ONd-tX-9lM">
@@ -1880,7 +1898,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2I-rj-d0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6228.985507246377" y="112.5"/>
+            <point key="canvasLocation" x="5377" y="113"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gE6-Nu-0xq">
@@ -1966,6 +1984,9 @@ Medications bills covered
                                 <state key="normal" title="AI Chatbot" image="AI Robot">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="A2d-52-zd2" kind="show" id="NGX-vs-Z70"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help? We're here 24/7" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blS-96-OCV">
                                 <rect key="frame" x="202" y="816" width="192" height="36"/>
@@ -1980,6 +2001,9 @@ Medications bills covered
                                 <state key="normal" image="Customer Service">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jKZ-H1-hoZ" kind="show" id="XUO-jA-E68"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOz-Kr-6SH">
                                 <rect key="frame" x="20" y="835" width="374" height="27"/>
@@ -2000,7 +2024,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Cw-2L-dXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3731.884057971015" y="803.57142857142856"/>
+            <point key="canvasLocation" x="3719" y="113"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rr7-36-4hw">
@@ -2041,6 +2065,9 @@ Medications bills covered
                                 <state key="normal" title="AI Chatbot" image="AI Robot">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="A2d-52-zd2" kind="show" id="4FH-ki-7dJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help? We're here 24/7" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67g-0B-sIC">
                                 <rect key="frame" x="198" y="816" width="192" height="36"/>
@@ -2055,6 +2082,9 @@ Medications bills covered
                                 <state key="normal" image="Customer Service">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jKZ-H1-hoZ" kind="show" id="w9M-65-ylf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JCHs Inc. | Copyright © | Privacy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaN-m2-UV3">
                                 <rect key="frame" x="120" y="844" width="175" height="18"/>
@@ -2071,7 +2101,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G3Y-P2-Xto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1911.594202898551" y="803.57142857142856"/>
+            <point key="canvasLocation" x="-2549" y="1505"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="g0x-Ob-9iy">
@@ -2132,6 +2162,9 @@ Medications bills covered
                                 <state key="normal" image="Customer Service">
                                     <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jKZ-H1-hoZ" kind="show" id="hyS-YU-qb2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello. How can I help?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q0-dI-lhY">
                                 <rect key="frame" x="85" y="473" width="135" height="100"/>
@@ -2169,377 +2202,6 @@ Medications bills covered
             </objects>
             <point key="canvasLocation" x="4538" y="804"/>
         </scene>
-        <!--Purchase Insurance View Controller-->
-        <scene sceneID="h44-wn-aM5">
-            <objects>
-                <viewController id="gHJ-73-zyO" customClass="PurchaseInsuranceViewController" customModule="JCHs" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bTX-DV-jrX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J4R-zV-wTZ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1128"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LY4-F3-ciO">
-                                        <rect key="frame" x="0.0" y="-107" width="414" height="1162"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66i-Jf-aVX">
-                                                <rect key="frame" x="0.0" y="312" width="414" height="152"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNF-MG-yRz">
-                                                <rect key="frame" x="0.0" y="1046" width="414" height="116"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5f-8S-K7c">
-                                                <rect key="frame" x="0.0" y="485" width="414" height="152"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5C-VB-iGW">
-                                                <rect key="frame" x="0.0" y="140" width="414" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.94266492130000001" green="0.58279097079999997" blue="0.45094639060000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuZ-IR-wfT">
-                                                <rect key="frame" x="0.0" y="832" width="414" height="124"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBF-nv-Adk">
-                                                <rect key="frame" x="0.0" y="658" width="414" height="152"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase Insurance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mFQ-V6-6Ya">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.96975022550000001" green="0.80587446689999997" blue="0.33319625260000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome, JCHs Customers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMs-Am-nCN">
-                                                <rect key="frame" x="20" y="49" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="As of currently, JCHs offers 4 types of insurance policies and plan to continue expanding our insurances." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTj-Rf-v7k">
-                                                <rect key="frame" x="20" y="74" width="374" height="63"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COVID-19 Emergency Insurance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNA-0m-Vtf">
-                                                <rect key="frame" x="20" y="163" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Health Insurance-80% Coverage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DT-xY-4hX">
-                                                <rect key="frame" x="20" y="336" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Auto Insurance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGV-m2-fYw">
-                                                <rect key="frame" x="20" y="509" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Insurance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRQ-pZ-vPY">
-                                                <rect key="frame" x="20" y="682" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$15/month" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkr-cF-9xo">
-                                                <rect key="frame" x="288" y="163" width="106" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$50/month" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdj-q0-CMy">
-                                                <rect key="frame" x="288" y="682" width="106" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$80/month" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3l-zn-Bhw">
-                                                <rect key="frame" x="288" y="509" width="106" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gsF-bj-BLL">
-                                                <rect key="frame" x="12" y="813" width="383" height="132"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jFd-EN-5vb">
-                                                <rect key="frame" x="17" y="186" width="374" height="105"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- Lay Off/Furloughed Assistance
-- Rent Covered 50%
-- Free Financial Aid (Amount is depending on independent student’s financial statement &amp; outstanding GPA)
-
-</string>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NuW-0e-Hnr">
-                                                <rect key="frame" x="17" y="359" width="374" height="105"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- All type of health physicians covered (i.e. doctors, gynecologists)
-Optometry covered
-Dental covered
-Medications bills covered 
-
-</string>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sCW-8h-ge2">
-                                                <rect key="frame" x="17" y="704" width="374" height="105"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- Rental Insurance
-- Insurer’s belongings covered in the event of environmental disasters or robberies
-
-</string>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5S0-by-s0i">
-                                                <rect key="frame" x="136" y="805" width="143" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <state key="normal" title="Add to Cart (Type 4)">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="addToCartType4Func:" destination="gHJ-73-zyO" eventType="touchUpInside" id="BjB-ja-Z9t"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$60/month" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJW-KT-oA7">
-                                                <rect key="frame" x="288" y="336" width="106" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbo-dS-H3w">
-                                                <rect key="frame" x="20" y="140" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEo-Vb-0DX">
-                                                <rect key="frame" x="20" y="313" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhd-LY-ndc">
-                                                <rect key="frame" x="20" y="486" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgg-j2-fgn">
-                                                <rect key="frame" x="20" y="659" width="374" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oz-U8-W2u">
-                                                <rect key="frame" x="136" y="287" width="143" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <state key="normal" title="Add to Cart (Type 1)">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="addToCartType1Func:" destination="gHJ-73-zyO" eventType="touchUpInside" id="RSk-x4-vOw"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GML-1t-0uz">
-                                                <rect key="frame" x="136" y="460" width="143" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <state key="normal" title="Add to Cart (Type 2)">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="addToCartType2Func:" destination="gHJ-73-zyO" eventType="touchUpInside" id="M1h-yk-Uhz"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCg-RN-D5a">
-                                                <rect key="frame" x="136" y="633" width="143" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <state key="normal" title="Add to Cart (Type 3)">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="addToCartType3Func:" destination="gHJ-73-zyO" eventType="touchUpInside" id="OQX-f8-tXj"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86B-1v-tHt">
-                                                <rect key="frame" x="18" y="1135" width="374" height="27"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <state key="normal" title="Provide Feedback">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                            </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Total: $0" translatesAutoresizingMaskIntoConstraints="NO" id="z7l-vw-870">
-                                                <rect key="frame" x="17" y="966" width="216" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Cart" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ruq-tU-och">
-                                                <rect key="frame" x="20" y="832" width="240" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDx-mm-Clx">
-                                                <rect key="frame" x="287" y="1008" width="107" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <state key="normal" title="Pay with Card">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Offer Ends Soon" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypr-zH-mSV">
-                                                <rect key="frame" x="90" y="267" width="316" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="File Claim" translatesAutoresizingMaskIntoConstraints="NO" id="h6c-DQ-Jr8">
-                                                <rect key="frame" x="251" y="1008" width="36" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="APb-y5-fHc">
-                                                <rect key="frame" x="16" y="529" width="374" height="105"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">- Car Accidents
-- Vehicle Repairs
-- Emergency Road Assistance (i.e. Flat Tire, Windshield Repair, Battery Replacement)
-</string>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help? We're here 24/7" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ots-yr-sVM">
-                                                <rect key="frame" x="214" y="1109" width="192" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
-                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfG-Ve-MJm">
-                                                <rect key="frame" x="350" y="1069" width="45" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Customer Service">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uP4-h2-MQu">
-                                                <rect key="frame" x="303" y="1069" width="45" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="AI Chatbot" image="AI Robot">
-                                                    <color key="titleColor" red="0.026856161650000002" green="0.25194385650000001" blue="0.57257956269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1162" id="i2Y-5N-6dU"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="LY4-F3-ciO" firstAttribute="centerX" secondItem="J4R-zV-wTZ" secondAttribute="centerX" id="7yk-2F-dnB"/>
-                                    <constraint firstAttribute="bottom" secondItem="LY4-F3-ciO" secondAttribute="bottom" id="Zen-pa-AvX"/>
-                                    <constraint firstItem="LY4-F3-ciO" firstAttribute="top" secondItem="J4R-zV-wTZ" secondAttribute="top" id="kDA-Xd-y8U"/>
-                                    <constraint firstItem="LY4-F3-ciO" firstAttribute="leading" secondItem="J4R-zV-wTZ" secondAttribute="leading" id="mU5-kg-4tW"/>
-                                    <constraint firstAttribute="trailing" secondItem="LY4-F3-ciO" secondAttribute="trailing" id="v9d-MM-El8"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="J4R-zV-wTZ" secondAttribute="bottom" id="Hkp-dY-Nn4"/>
-                            <constraint firstItem="J4R-zV-wTZ" firstAttribute="leading" secondItem="BNc-VN-YOe" secondAttribute="leading" id="QL4-oQ-Qmj"/>
-                            <constraint firstItem="J4R-zV-wTZ" firstAttribute="top" secondItem="BNc-VN-YOe" secondAttribute="top" id="Xdh-PO-ppk"/>
-                            <constraint firstItem="J4R-zV-wTZ" firstAttribute="trailing" secondItem="BNc-VN-YOe" secondAttribute="trailing" id="v90-j6-nU7"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="BNc-VN-YOe"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="kVZ-qO-SkN"/>
-                    <size key="freeformSize" width="414" height="1250"/>
-                    <connections>
-                        <outlet property="addToCartType1" destination="8oz-U8-W2u" id="gzo-Nj-Bet"/>
-                        <outlet property="addToCartType2" destination="GML-1t-0uz" id="tWe-XT-G9d"/>
-                        <outlet property="addToCartType3" destination="NCg-RN-D5a" id="vJh-OH-svh"/>
-                        <outlet property="addToCartType4" destination="5S0-by-s0i" id="Zza-A9-mxc"/>
-                        <outlet property="cartTextField" destination="gsF-bj-BLL" id="38I-2Q-FZq"/>
-                        <outlet property="pricePerPackage" destination="z7l-vw-870" id="ucR-y9-Vb9"/>
-                        <outlet property="totalCostView" destination="z7l-vw-870" id="V7F-ug-WNl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kcn-b4-qG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3730" y="-671"/>
-        </scene>
         <!--Services View Controller-->
         <scene sceneID="Uxx-Wf-8cH">
             <objects>
@@ -2554,8 +2216,8 @@ Medications bills covered
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WI-YN-5Q7">
                                         <rect key="frame" x="0.0" y="-107" width="414" height="1269"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5TI-HH-PgX">
-                                                <rect key="frame" x="0.0" y="8" width="414" height="1261"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5TI-HH-PgX">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1269"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4t-zF-fqB">
@@ -2688,6 +2350,9 @@ Medications bills covered
                                                 <state key="normal" title="Document Management">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="K8S-sm-Jjk" kind="show" id="64X-cG-CXf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XR-HY-8rs">
                                                 <rect key="frame" x="159" y="1035" width="200" height="35"/>
@@ -2788,6 +2453,9 @@ Medications bills covered
                                                 <state key="normal" title="View Insurance Card">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="jhB-CW-D5j" kind="show" id="KU5-U1-90T"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2823,7 +2491,7 @@ Medications bills covered
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEl-V2-FaN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2862" y="230"/>
+            <point key="canvasLocation" x="787" y="230"/>
         </scene>
     </scenes>
     <resources>
@@ -2851,13 +2519,14 @@ Medications bills covered
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="e0a-Ko-XGt"/>
-        <segue reference="l7l-wH-oTq"/>
+        <segue reference="hEe-Cg-nDu"/>
         <segue reference="JJA-iM-aoa"/>
         <segue reference="1W3-2d-c84"/>
-        <segue reference="GgK-rC-zuv"/>
-        <segue reference="QIe-cN-Kv3"/>
-        <segue reference="NzY-ru-zU1"/>
-        <segue reference="s7e-dm-6UZ"/>
+        <segue reference="7hJ-wK-JAO"/>
+        <segue reference="rXc-VF-Wkx"/>
+        <segue reference="lE8-4i-8xD"/>
+        <segue reference="Mud-6i-tGN"/>
+        <segue reference="oqh-ih-KLa"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
